@@ -1,45 +1,45 @@
 {
-  "rescript12@link-dev:./esy.json": "/Volumes/SSD/Github/rescript12",
+  "rescript12@link-dev:./esy.json": "/Users/anmonteiro/projects/rescript12",
   "ocaml@github:anmonteiro/ocaml#75f22c8@d41d8cd9":
-    "/Volumes/SSD/.esy/source/i/ocaml__ddcc3263",
+    "/Users/anmonteiro/.esy/source/i/ocaml__ddcc3263",
   "esy-m4@github:esy-packages/esy-m4#c7cf0ac9221be2b1f9d90e83559ca08397a629e7@d41d8cd9":
-    "/Volumes/SSD/.esy/source/i/esy_m4__779f59f5",
+    "/Users/anmonteiro/.esy/source/i/esy_m4__779f59f5",
   "bs-platform@github:anmonteiro/bucklescript#1a00d85@d41d8cd9":
-    "/Volumes/SSD/.esy/source/i/bs_platform__988f6491",
+    "/Users/anmonteiro/.esy/source/i/bs_platform__988f6491",
   "@opam/result@opam:1.5@6b753c82":
-    "/Volumes/SSD/.esy/source/i/opam__s__result__opam__c__1.5__9dc19750",
+    "/Users/anmonteiro/.esy/source/i/opam__s__result__opam__c__1.5__9dc19750",
   "@opam/ppx_derivers@opam:1.2.1@ecf0aa45":
-    "/Volumes/SSD/.esy/source/i/opam__s__ppx__derivers__opam__c__1.2.1__a5e0f03f",
+    "/Users/anmonteiro/.esy/source/i/opam__s__ppx__derivers__opam__c__1.2.1__a5e0f03f",
   "@opam/ocamlfind@opam:1.8.1@b7dc3072":
-    "/Volumes/SSD/.esy/source/i/opam__s__ocamlfind__opam__c__1.8.1__ab68a5ee",
+    "/Users/anmonteiro/.esy/source/i/opam__s__ocamlfind__opam__c__1.8.1__ab68a5ee",
   "@opam/merlin-extend@opam:0.6@404f814c":
-    "/Volumes/SSD/.esy/source/i/opam__s__merlin_extend__opam__c__0.6__7f602f45",
+    "/Users/anmonteiro/.esy/source/i/opam__s__merlin_extend__opam__c__0.6__7f602f45",
   "@opam/menhirSdk@opam:20210310@5abaafca":
-    "/Volumes/SSD/.esy/source/i/opam__s__menhirsdk__opam__c__20210310__cf003310",
+    "/Users/anmonteiro/.esy/source/i/opam__s__menhirsdk__opam__c__20210310__cf003310",
   "@opam/menhirLib@opam:20210310@f9315713":
-    "/Volumes/SSD/.esy/source/i/opam__s__menhirlib__opam__c__20210310__0a5062ab",
+    "/Users/anmonteiro/.esy/source/i/opam__s__menhirlib__opam__c__20210310__0a5062ab",
   "@opam/menhir@opam:20210310@50de9216":
-    "/Volumes/SSD/.esy/source/i/opam__s__menhir__opam__c__20210310__973a1db6",
+    "/Users/anmonteiro/.esy/source/i/opam__s__menhir__opam__c__20210310__973a1db6",
   "@opam/fix@opam:20201120@5c318621":
-    "/Volumes/SSD/.esy/source/i/opam__s__fix__opam__c__20201120__4fff9cac",
+    "/Users/anmonteiro/.esy/source/i/opam__s__fix__opam__c__20201120__4fff9cac",
   "@opam/dune-private-libs@opam:2.8.4@1ce2b48d":
-    "/Volumes/SSD/.esy/source/i/opam__s__dune_private_libs__opam__c__2.8.4__5b3fd3ee",
+    "/Users/anmonteiro/.esy/source/i/opam__s__dune_private_libs__opam__c__2.8.4__5b3fd3ee",
   "@opam/dune-glob@opam:2.8.4@6aa1a869":
-    "/Volumes/SSD/.esy/source/i/opam__s__dune_glob__opam__c__2.8.4__701139ab",
+    "/Users/anmonteiro/.esy/source/i/opam__s__dune_glob__opam__c__2.8.4__701139ab",
   "@opam/dune-action-plugin@opam:2.8.4@ecd1dcb3":
-    "/Volumes/SSD/.esy/source/i/opam__s__dune_action_plugin__opam__c__2.8.4__21537bf1",
+    "/Users/anmonteiro/.esy/source/i/opam__s__dune_action_plugin__opam__c__2.8.4__21537bf1",
   "@opam/dune@opam:2.8.4@ee414d6c":
-    "/Volumes/SSD/.esy/source/i/opam__s__dune__opam__c__2.8.4__8b044325",
+    "/Users/anmonteiro/.esy/source/i/opam__s__dune__opam__c__2.8.4__8b044325",
   "@opam/cppo@opam:1.6.7@c28ac3ae":
-    "/Volumes/SSD/.esy/source/i/opam__s__cppo__opam__c__1.6.7__ff1534be",
+    "/Users/anmonteiro/.esy/source/i/opam__s__cppo__opam__c__1.6.7__ff1534be",
   "@opam/conf-m4@opam:1@196bf219":
-    "/Volumes/SSD/.esy/source/i/opam__s__conf_m4__opam__c__1__ecdf46a3",
+    "/Users/anmonteiro/.esy/source/i/opam__s__conf_m4__opam__c__1__ecdf46a3",
   "@opam/base-unix@opam:base@87d0b2eb":
-    "/Volumes/SSD/.esy/source/i/opam__s__base_unix__opam__c__base__93427a57",
+    "/Users/anmonteiro/.esy/source/i/opam__s__base_unix__opam__c__base__93427a57",
   "@opam/base-threads@opam:base@36803084":
-    "/Volumes/SSD/.esy/source/i/opam__s__base_threads__opam__c__base__f282958b",
+    "/Users/anmonteiro/.esy/source/i/opam__s__base_threads__opam__c__base__f282958b",
   "@esy-ocaml/substs@0.0.1@d41d8cd9":
-    "/Volumes/SSD/.esy/source/i/esy_ocaml__s__substs__0.0.1__19de1ee1",
+    "/Users/anmonteiro/.esy/source/i/esy_ocaml__s__substs__0.0.1__19de1ee1",
   "@esy-ocaml/reason@3.7.0@d41d8cd9":
-    "/Volumes/SSD/.esy/source/i/esy_ocaml__s__reason__3.7.0__9ed0eb4e"
+    "/Users/anmonteiro/.esy/source/i/esy_ocaml__s__reason__3.7.0__9ed0eb4e"
 }

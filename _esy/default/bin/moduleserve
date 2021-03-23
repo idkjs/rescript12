@@ -1,3 +1,0 @@
-#!/bin/sh
-  exec node "/Volumes/SSD/.esy/source/i/moduleserve__0.9.1__455d358d/bin/moduleserve.js" "$@"
-              
