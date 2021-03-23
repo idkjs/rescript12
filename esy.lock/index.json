@@ -1,23 +1,7 @@
 {
-  "checksum": "b0b68af954bddf0f851d32abf5c4fc8b",
+  "checksum": "af29eb39a6c09ba4005365016b048cbb",
   "root": "rescript12@link-dev:./esy.json",
   "node": {
-    "scheduler@0.20.2@d41d8cd9": {
-      "id": "scheduler@0.20.2@d41d8cd9",
-      "name": "scheduler",
-      "version": "0.20.2",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz#sha1:4baee39436e34aa93b4874bddcbf0fe8b8b50e91"
-        ]
-      },
-      "overrides": [],
-      "dependencies": [
-        "object-assign@4.1.1@d41d8cd9", "loose-envify@1.4.0@d41d8cd9"
-      ],
-      "devDependencies": []
-    },
     "rescript12@link-dev:./esy.json": {
       "id": "rescript12@link-dev:./esy.json",
       "name": "rescript12",
@@ -25,61 +9,10 @@
       "source": { "type": "link-dev", "path": ".", "manifest": "esy.json" },
       "overrides": [],
       "dependencies": [
-        "reason-react@0.9.1@d41d8cd9", "react-dom@17.0.2@d41d8cd9",
-        "react@17.0.2@d41d8cd9",
         "bs-platform@github:anmonteiro/bucklescript#1a00d85@d41d8cd9"
       ],
       "devDependencies": [],
       "installConfig": { "pnp": false }
-    },
-    "reason-react@0.9.1@d41d8cd9": {
-      "id": "reason-react@0.9.1@d41d8cd9",
-      "name": "reason-react",
-      "version": "0.9.1",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://registry.npmjs.org/reason-react/-/reason-react-0.9.1.tgz#sha1:30a887158200b659aa03e2d75ff4cc54dc462bb0"
-        ]
-      },
-      "overrides": [],
-      "dependencies": [
-        "bs-platform@github:anmonteiro/bucklescript#1a00d85@d41d8cd9"
-      ],
-      "devDependencies": []
-    },
-    "react-dom@17.0.2@d41d8cd9": {
-      "id": "react-dom@17.0.2@d41d8cd9",
-      "name": "react-dom",
-      "version": "17.0.2",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz#sha1:ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
-        ]
-      },
-      "overrides": [],
-      "dependencies": [
-        "scheduler@0.20.2@d41d8cd9", "react@17.0.2@d41d8cd9",
-        "object-assign@4.1.1@d41d8cd9", "loose-envify@1.4.0@d41d8cd9"
-      ],
-      "devDependencies": []
-    },
-    "react@17.0.2@d41d8cd9": {
-      "id": "react@17.0.2@d41d8cd9",
-      "name": "react",
-      "version": "17.0.2",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://registry.npmjs.org/react/-/react-17.0.2.tgz#sha1:d0b5cc516d29eb3eee383f75b62864cfb6800037"
-        ]
-      },
-      "overrides": [],
-      "dependencies": [
-        "object-assign@4.1.1@d41d8cd9", "loose-envify@1.4.0@d41d8cd9"
-      ],
-      "devDependencies": []
     },
     "ocaml@github:anmonteiro/ocaml#75f22c8@d41d8cd9": {
       "id": "ocaml@github:anmonteiro/ocaml#75f22c8@d41d8cd9",
@@ -88,48 +21,6 @@
       "source": {
         "type": "install",
         "source": [ "github:anmonteiro/ocaml#75f22c8" ]
-      },
-      "overrides": [],
-      "dependencies": [],
-      "devDependencies": []
-    },
-    "object-assign@4.1.1@d41d8cd9": {
-      "id": "object-assign@4.1.1@d41d8cd9",
-      "name": "object-assign",
-      "version": "4.1.1",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz#sha1:2109adc7965887cfc05cbbd442cac8bfbb360863"
-        ]
-      },
-      "overrides": [],
-      "dependencies": [],
-      "devDependencies": []
-    },
-    "loose-envify@1.4.0@d41d8cd9": {
-      "id": "loose-envify@1.4.0@d41d8cd9",
-      "name": "loose-envify",
-      "version": "1.4.0",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz#sha1:71ee51fa7be4caec1a63839f7e682d8132d30caf"
-        ]
-      },
-      "overrides": [],
-      "dependencies": [ "js-tokens@4.0.0@d41d8cd9" ],
-      "devDependencies": []
-    },
-    "js-tokens@4.0.0@d41d8cd9": {
-      "id": "js-tokens@4.0.0@d41d8cd9",
-      "name": "js-tokens",
-      "version": "4.0.0",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz#sha1:19203fb59991df98e3a287050d4647cdeaf32499"
-        ]
       },
       "overrides": [],
       "dependencies": [],

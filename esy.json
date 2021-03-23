@@ -1,9 +1,6 @@
 {
   "dependencies": {
-    "bs-platform": "*",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "reason-react": "^0.9.1"
+    "bs-platform": "*"
   },
   "resolutions": {
     "bs-platform": "anmonteiro/bucklescript#1a00d85",
@@ -12,9 +9,6 @@
   "esy": {
     "buildsInSource": "unsafe",
     "build": [ "ln -sfn #{bs-platform.install} node_modules/bs-platform" ]
-  },
-  "scripts": {
-    "start": "node_modules/bs-platform/bin/bsb -make-world -w -ws _ "
   },
   "installConfig": { "pnp": false }
 }

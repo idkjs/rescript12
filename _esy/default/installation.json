@@ -1,21 +1,7 @@
 {
-  "scheduler@0.20.2@d41d8cd9":
-    "/Volumes/SSD/.esy/source/i/scheduler__0.20.2__c487901c",
   "rescript12@link-dev:./esy.json": "/Volumes/SSD/Github/rescript12",
-  "reason-react@0.9.1@d41d8cd9":
-    "/Volumes/SSD/.esy/source/i/reason_react__0.9.1__d0ebedb2",
-  "react-dom@17.0.2@d41d8cd9":
-    "/Volumes/SSD/.esy/source/i/react_dom__17.0.2__69e1c5cd",
-  "react@17.0.2@d41d8cd9":
-    "/Volumes/SSD/.esy/source/i/react__17.0.2__eca3afd9",
   "ocaml@github:anmonteiro/ocaml#75f22c8@d41d8cd9":
     "/Volumes/SSD/.esy/source/i/ocaml__ddcc3263",
-  "object-assign@4.1.1@d41d8cd9":
-    "/Volumes/SSD/.esy/source/i/object_assign__4.1.1__c3b8f00e",
-  "loose-envify@1.4.0@d41d8cd9":
-    "/Volumes/SSD/.esy/source/i/loose_envify__1.4.0__f4d87f47",
-  "js-tokens@4.0.0@d41d8cd9":
-    "/Volumes/SSD/.esy/source/i/js_tokens__4.0.0__13c348c2",
   "esy-m4@github:esy-packages/esy-m4#c7cf0ac9221be2b1f9d90e83559ca08397a629e7@d41d8cd9":
     "/Volumes/SSD/.esy/source/i/esy_m4__779f59f5",
   "bs-platform@github:anmonteiro/bucklescript#1a00d85@d41d8cd9":
