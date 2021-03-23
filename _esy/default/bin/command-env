@@ -1,0 +1,268 @@
+# Command environment
+
+#
+# Built-in
+#
+export ESY__ROOT_PACKAGE_CONFIG_PATH="/Volumes/SSD/Github/rescript12/esy.json"
+export GIT_ASKPASS='/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'
+export CPPFLAGS='-I/usr/local/opt/openssl@1.1/include'
+export USER='mandalarian'
+export PATH='/Volumes/SSD/.fnm/node-versions/v14.15.4/installation/lib/node_modules/esy/3/i/esy-d2c288c9/bin:/usr/local/opt/openssl@1.1/bin:/usr/local/opt/gnu-getopt/bin:/Users/mandalarian/Downloads/caramel/bin:/Users/mandalarian/.opam/default/bin/refmt:/usr/local/opt/fzf/bin:/var/folders/rt/7lc5vcw16459dszl8djk35fh0000gn/T/fnm_multishell_72016_1616517593466/bin:.:/Volumes/SSD/.opam/book/bin:/Users/mandalarian/.local/bin:/var/folders/rt/7lc5vcw16459dszl8djk35fh0000gn/T/fnm_multishell_71937_1616517592470/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/aria2/bin:/usr/local/go/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Applications/Racket v7.6/bin:/Library/TeX/texbin:/var/folders/rt/7lc5vcw16459dszl8djk35fh0000gn/T/fnm_multishell_42001_1616510111435/bin:.:/Users/mandalarian/.local/bin:/var/folders/rt/7lc5vcw16459dszl8djk35fh0000gn/T/fnm_multishell_41962_1616510110412/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+export OCAMLPATH='/Volumes/SSD/.fnm/node-versions/v14.15.4/installation/lib/node_modules/esy/3/i/esy-d2c288c9/lib:'
+export LC_TERMINAL='iTerm2'
+export OPAMROOT='/Volumes/SSD/.opam'
+export postmaster='/Users/mandalarian/Library/Application Support/Postgres/var-13/postmaster.pid'
+export XPC_FLAGS='0x0'
+export MOZ_CRASHREPORTER_STRINGS_OVERRIDE='/Applications/Firefox.app/Contents/Resources/browser/crashreporter-override.ini'
+export MallocNanoZone='0'
+export CAML_LD_LIBRARY_PATH='/Volumes/SSD/.fnm/node-versions/v14.15.4/installation/lib/node_modules/esy/3/i/esy-d2c288c9/stublibs:/Volumes/SSD/.fnm/node-versions/v14.15.4/installation/lib/node_modules/esy/3/i/esy-d2c288c9/lib/stublibs:/Volumes/SSD/.opam/book/lib/stublibs:/Volumes/SSD/.opam/book/lib/ocaml/stublibs:/Volumes/SSD/.opam/book/lib/ocaml'
+export PKG_CONFIG_PATH='/usr/local/opt/openssl@1.1/lib/pkgconfig'
+export LOGNAME='mandalarian'
+export SHLVL='3'
+export MAN_PATH='/Volumes/SSD/.fnm/node-versions/v14.15.4/installation/lib/node_modules/esy/3/i/esy-d2c288c9/man:'
+export MOZ_CRASHREPORTER_EVENTS_DIRECTORY='/Users/mandalarian/Library/Application Support/Firefox/Profiles/mz4sy5k2.default-release/crashes/events'
+export VSCODE_GIT_ASKPASS_MAIN='/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'
+export FNM_MULTISHELL_PATH='/var/folders/rt/7lc5vcw16459dszl8djk35fh0000gn/T/fnm_multishell_72016_1616517593466'
+export MOZ_CRASHREPORTER_RESTART_ARG_0='/Applications/Firefox.app/Contents/MacOS/firefox'
+export _='/Volumes/SSD/.fnm/node-versions/v14.15.4/installation/lib/node_modules/esy/3/i/esy-d2c288c9/bin/esy'
+export OPAM_SWITCH_PREFIX='/Volumes/SSD/.opam/book'
+export MOZ_CRASHREPORTER_PING_DIRECTORY='/Users/mandalarian/Library/Application Support/Firefox/Pending Pings'
+export __CFBundleIdentifier='com.googlecode.iterm2'
+export LANG='en_US.UTF-8'
+export ITERM_PROFILE='Default'
+export COLORFGBG='15;0'
+export ERL_AFLAGS='-kernel shell_history enabled'
+export HOME='/Users/mandalarian'
+export MOZ_CRASHREPORTER_DATA_DIRECTORY='/Users/mandalarian/Library/Application Support/Firefox/Crash Reports'
+export VISUAL='code --wait'
+export OCAML_TOPLEVEL_PATH='/Volumes/SSD/.opam/book/lib/toplevel'
+export LS_COLORS='bd=38;5;68:ca=38;5;17:cd=38;5;113;1:di=38;5;30:do=38;5;127:ex=38;5;208;1:pi=38;5;126:fi=38;5;253:ln=target:mh=38;5;222;1:or=48;5;196;38;5;232;1:ow=38;5;220;1:sg=48;5;3;38;5;0:su=38;5;220;1;3;100;1:so=38;5;197:st=38;5;86;48;5;234:tw=48;5;235;38;5;139;3:*LS_COLORS=48;5;89;38;5;197;1;3;4;7:*README=38;5;220;1:*LICENSE=38;5;220;1:*COPYING=38;5;220;1:*INSTALL=38;5;220;1:*COPYRIGHT=38;5;220;1:*AUTHORS=38;5;220;1:*HISTORY=38;5;220;1:*CONTRIBUTORS=38;5;220;1:*PATENTS=38;5;220;1:*VERSION=38;5;220;1:*NOTICE=38;5;220;1:*CHANGES=38;5;220;1:*.log=38;5;190:*.txt=38;5;253:*.etx=38;5;184:*.info=38;5;184:*.markdown=38;5;184:*.md=38;5;184:*.mkd=38;5;184:*.nfo=38;5;184:*.pod=38;5;184:*.tex=38;5;184:*.textile=38;5;184:*.json=38;5;178:*.msg=38;5;178:*.pgn=38;5;178:*.rss=38;5;178:*.xml=38;5;178:*.yml=38;5;178:*.cbr=38;5;141:*.cbz=38;5;141:*.chm=38;5;141:*.djvu=38;5;141:*.pdf=38;5;141:*.PDF=38;5;141:*.docm=38;5;111;4:*.doc=38;5;111:*.docx=38;5;111:*.eps=38;5;111:*.ps=38;5;111:*.odb=38;5;111:*.odt=38;5;111:*.odp=38;5;166:*.pps=38;5;166:*.ppt=38;5;166:*.csv=38;5;78:*.ods=38;5;112:*.xla=38;5;76:*.xls=38;5;112:*.xlsx=38;5;112:*.xlsxm=38;5;112;4:*.xltm=38;5;73;4:*.xltx=38;5;73:*cfg=1:*conf=1:*rc=1:*.ini=1:*.viminfo=1:*.pcf=1:*.psf=1:*.git=38;5;197:*.gitignore=38;5;240:*.gitattributes=38;5;240:*.gitmodules=38;5;240:*.awk=38;5;172:*.bash=38;5;172:*.bat=38;5;172:*.BAT=38;5;172:*.sed=38;5;172:*.sh=38;5;172:*.fish=38;5;172:*.vim=38;5;172:*.ahk=38;5;41:*.py=38;5;41:*.pl=38;5;41:*.msql=38;5;222:*.mysql=38;5;222:*.pgsql=38;5;222:*.sql=38;5;222:*.tcl=38;5;64;1:*.asm=38;5;81:*.cl=38;5;81:*.lisp=38;5;81:*.lua=38;5;81:*.moon=38;5;81:*.c=38;5;81:*.C=38;5;81:*.h=38;5;110:*.H=38;5;110:*.tcc=38;5;110:*.c++=38;5;81:*.h++=38;5;110:*.hpp=38;5;110:*.hxx=38;5;110:*.ii=38;5;110:*.M=38;5;110:*.m=38;5;110:*.cc=38;5;81:*.cs=38;5;81:*.cp=38;5;81:*.cpp=38;5;81:*.cxx=38;5;81:*.cr=38;5;81:*.go=38;5;81:*.f=38;5;81:*.for=38;5;81:*.ftn=38;5;81:*.s=38;5;110:*.S=38;5;110:*.rs=38;5;81:*.sx=38;5;81:*.hi=38;5;110:*.hs=38;5;81:*.PL=38;5;160:*.pyc=38;5;240:*.css=38;5;125;1:*.less=38;5;125;1:*.sass=38;5;125;1:*.scss=38;5;125;1:*.htm=38;5;125;1:*.html=38;5;125;1:*.jhtm=38;5;125;1:*.mht=38;5;125;1:*.eml=38;5;125;1:*.mustache=38;5;125;1:*.coffee=38;5;074;1:*.java=38;5;074;1:*.js=38;5;074;1:*.jsm=38;5;074;1:*.jsm=38;5;074;1:*.jsp=38;5;074;1:*.php=38;5;81:*.ctp=38;5;81:*.twig=38;5;81:*.vb=38;5;81:*.vba=38;5;81:*.vbs=38;5;81:*Makefile=38;5;155:*MANIFEST=38;5;243:*pm_to_blib=38;5;240:*.am=38;5;242:*.in=38;5;242:*.hin=38;5;242:*.scan=38;5;242:*.m4=38;5;242:*.old=38;5;242:*.out=38;5;242:*.SKIP=38;5;244:*.diff=48;5;197;38;5;232:*.patch=48;5;197;38;5;232;1:*.bmp=38;5;97:*.tiff=38;5;97:*.TIFF=38;5;97:*.cdr=38;5;97:*.gif=38;5;97:*.ico=38;5;97:*.jpeg=38;5;97:*.JPG=38;5;97:*.jpg=38;5;97:*.nth=38;5;97:*.png=38;5;97:*.svg=38;5;97:*.xpm=38;5;97:*.avi=38;5;114:*.divx=38;5;114:*.IFO=38;5;114:*.m2v=38;5;114:*.m4v=38;5;114:*.mkv=38;5;114:*.MOV=38;5;114:*.mov=38;5;114:*.mp4=38;5;114:*.mpeg=38;5;114:*.mpg=38;5;114:*.ogm=38;5;114:*.rmvb=38;5;114:*.sample=38;5;114:*.wmv=38;5;114:*.3g2=38;5;115:*.3gp=38;5;115:*.gp3=38;5;115:*.webm=38;5;115:*.gp4=38;5;115:*.asf=38;5;115:*.flv=38;5;115:*.ts=38;5;115:*.ogv=38;5;115:*.f4v=38;5;115:*.VOB=38;5;115;1:*.vob=38;5;115;1:*.3ga=38;5;137;1:*.S3M=38;5;137;1:*.aac=38;5;137;1:*.dat=38;5;137;1:*.dts=38;5;137;1:*.fcm=38;5;137;1:*.m4a=38;5;137;1:*.mid=38;5;137;1:*.midi=38;5;137;1:*.mod=38;5;137;1:*.mp3=38;5;137;1:*.oga=38;5;137;1:*.ogg=38;5;137;1:*.s3m=38;5;137;1:*.sid=38;5;137;1:*.ape=38;5;136;1:*.flac=38;5;136;1:*.alac=38;5;136;1:*.wav=38;5;136;1:*.wv=38;5;136;1:*.wvc=38;5;136;1:*.afm=38;5;66:*.pfb=38;5;66:*.pfm=38;5;66:*.ttf=38;5;66:*.otf=38;5;66:*.PFA=38;5;66:*.pfa=38;5;66:*.7z=38;5;40:*.a=38;5;40:*.arj=38;5;40:*.bz2=38;5;40:*.gz=38;5;40:*.rar=38;5;40:*.tar=38;5;40:*.tgz=38;5;40:*.xz=38;5;40:*.zip=38;5;40:*.apk=38;5;215:*.deb=38;5;215:*.jad=38;5;215:*.jar=38;5;215:*.cab=38;5;215:*.pak=38;5;215:*.pk3=38;5;215:*.vdf=38;5;215:*.vpk=38;5;215:*.bsp=38;5;215:*.dmg=38;5;215:*.r00=38;5;239:*.r01=38;5;239:*.r02=38;5;239:*.r03=38;5;239:*.r04=38;5;239:*.r05=38;5;239:*.r06=38;5;239:*.r07=38;5;239:*.r08=38;5;239:*.r09=38;5;239:*.r10=38;5;239:*.r100=38;5;239:*.r101=38;5;239:*.r102=38;5;239:*.r103=38;5;239:*.r104=38;5;239:*.r105=38;5;239:*.r106=38;5;239:*.r107=38;5;239:*.r108=38;5;239:*.r109=38;5;239:*.r11=38;5;239:*.r110=38;5;239:*.r111=38;5;239:*.r112=38;5;239:*.r113=38;5;239:*.r114=38;5;239:*.r115=38;5;239:*.r116=38;5;239:*.r12=38;5;239:*.r13=38;5;239:*.r14=38;5;239:*.r15=38;5;239:*.r16=38;5;239:*.r17=38;5;239:*.r18=38;5;239:*.r19=38;5;239:*.r20=38;5;239:*.r21=38;5;239:*.r22=38;5;239:*.r25=38;5;239:*.r26=38;5;239:*.r27=38;5;239:*.r28=38;5;239:*.r29=38;5;239:*.r30=38;5;239:*.r31=38;5;239:*.r32=38;5;239:*.r33=38;5;239:*.r34=38;5;239:*.r35=38;5;239:*.r36=38;5;239:*.r37=38;5;239:*.r38=38;5;239:*.r39=38;5;239:*.r40=38;5;239:*.r41=38;5;239:*.r42=38;5;239:*.r43=38;5;239:*.r44=38;5;239:*.r45=38;5;239:*.r46=38;5;239:*.r47=38;5;239:*.r48=38;5;239:*.r49=38;5;239:*.r50=38;5;239:*.r51=38;5;239:*.r52=38;5;239:*.r53=38;5;239:*.r54=38;5;239:*.r55=38;5;239:*.r56=38;5;239:*.r57=38;5;239:*.r58=38;5;239:*.r59=38;5;239:*.r60=38;5;239:*.r61=38;5;239:*.r62=38;5;239:*.r63=38;5;239:*.r64=38;5;239:*.r65=38;5;239:*.r66=38;5;239:*.r67=38;5;239:*.r68=38;5;239:*.r69=38;5;239:*.r69=38;5;239:*.r70=38;5;239:*.r71=38;5;239:*.r72=38;5;239:*.r73=38;5;239:*.r74=38;5;239:*.r75=38;5;239:*.r76=38;5;239:*.r77=38;5;239:*.r78=38;5;239:*.r79=38;5;239:*.r80=38;5;239:*.r81=38;5;239:*.r82=38;5;239:*.r83=38;5;239:*.r84=38;5;239:*.r85=38;5;239:*.r86=38;5;239:*.r87=38;5;239:*.r88=38;5;239:*.r89=38;5;239:*.r90=38;5;239:*.r91=38;5;239:*.r92=38;5;239:*.r93=38;5;239:*.r94=38;5;239:*.r95=38;5;239:*.r96=38;5;239:*.r97=38;5;239:*.r98=38;5;239:*.r99=38;5;239:*.part=38;5;239:*.iso=38;5;124:*.bin=38;5;124:*.nrg=38;5;124:*.qcow=38;5;124:*.sparseimage=38;5;124:*.accdb=38;5;60:*.accde=38;5;60:*.accdr=38;5;60:*.accdt=38;5;60:*.db=38;5;60:*.localstorage=38;5;60:*.sqlite=38;5;60:*.typelib=38;5;60:*.pacnew=38;5;33:*.un~=38;5;241:*.orig=38;5;241:*.BUP=38;5;241:*.bak=38;5;241:*.o=38;5;241:*.rlib=38;5;241:*.swp=38;5;244:*.swo=38;5;244:*.tmp=38;5;244:*.sassc=38;5;244:*.pid=38;5;248:*.state=38;5;248:*lockfile=38;5;248:*.err=38;5;160;1:*.error=38;5;160;1:*.stderr=38;5;160;1:*.dump=38;5;241:*.stackdump=38;5;241:*.zcompdump=38;5;241:*.zwc=38;5;241:*.pcap=38;5;29:*.cap=38;5;29:*.dmp=38;5;29:*.allow=38;5;112:*.deny=38;5;196:*.service=38;5;45:*@.service=38;5;45:*.socket=38;5;45:*.swap=38;5;45:*.device=38;5;45:*.mount=38;5;45:*.automount=38;5;45:*.target=38;5;45:*.path=38;5;45:*.timer=38;5;45:*.snapshot=38;5;45:*.application=38;5;116:*.cue=38;5;116:*.description=38;5;116:*.directory=38;5;116:*.m3u=38;5;116:*.m3u8=38;5;116:*.md5=38;5;116:*.properties=38;5;116:*.sfv=38;5;116:*.srt=38;5;116:*.theme=38;5;116:*.torrent=38;5;116:*.urlview=38;5;116:*.asc=38;5;192;3:*.enc=38;5;192;3:*.gpg=38;5;192;3:*.signature=38;5;192;3:*.sig=38;5;192;3:*.p12=38;5;192;3:*.pem=38;5;192;3:*.pgp=38;5;192;3:*.asc=38;5;192;3:*.enc=38;5;192;3:*.sig=38;5;192;3:*.signature=38;5;192;3:*.32x=38;5;213:*.cdi=38;5;213:*.fm2=38;5;213:*.rom=38;5;213:*.sav=38;5;213:*.st=38;5;213:*.a00=38;5;213:*.a52=38;5;213:*.A64=38;5;213:*.a64=38;5;213:*.a78=38;5;213:*.adf=38;5;213:*.atr=38;5;213:*.gb=38;5;213:*.gba=38;5;213:*.gbc=38;5;213:*.gel=38;5;213:*.gg=38;5;213:*.ggl=38;5;213:*.ipk=38;5;213:*.j64=38;5;213:*.nds=38;5;213:*.nes=38;5;213:*.sms=38;5;213:*.pot=38;5;7:*.pcb=38;5;7:*.mm=38;5;7:*.pod=38;5;7:*.gbr=38;5;7:*.pl=38;5;7:*.spl=38;5;7:*.scm=38;5;7:*.sis=38;5;7:*.1p=38;5;7:*.3p=38;5;7:*.cnc=38;5;7:*.def=38;5;7:*.ex=38;5;7:*.example=38;5;7:*.feature=38;5;7:*.ger=38;5;7:*.map=38;5;7:*.mf=38;5;7:*.mfasl=38;5;7:*.mi=38;5;7:*.mtx=38;5;7:*.pc=38;5;7:*.pi=38;5;7:*.plt=38;5;7:*.pm=38;5;7:*.rb=38;5;7:*.rdf=38;5;7:*.rst=38;5;7:*.ru=38;5;7:*.sch=38;5;7:*.sty=38;5;7:*.sug=38;5;7:*.t=38;5;7:*.tdy=38;5;7:*.tfm=38;5;7:*.tfnt=38;5;7:*.tg=38;5;7:*.vcard=38;5;7:*.vcf=38;5;7:*.xln=38;5;7:'
+export EDITOR='nvim'
+export COMMAND_MODE='unix2003'
+export COLORTERM='truecolor'
+export FNM_NODE_DIST_MIRROR='https://nodejs.org/dist'
+export VSCODE_GIT_ASKPASS_NODE='/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)'
+export LC_TERMINAL_VERSION='3.4.4'
+export ORIGINAL_XDG_CURRENT_DESKTOP='undefined'
+export FNM_DIR='/Volumes/SSD/.fnm'
+export __CF_USER_TEXT_ENCODING='0x1F5:0:0'
+export LDFLAGS='-L/usr/local/opt/openssl@1.1/lib'
+export ESY__PREFIX='/Volumes/SSD/.esy'
+export TERM_PROGRAM_VERSION='1.54.3'
+export VISUAL_EDITOR='code'
+export CLICOLOR_FORCE='1'
+export SHELL='/bin/bash'
+export ITERM_SESSION_ID='w0t0p2:566C8E86-5A7C-4DB6-BB9D-686D028AD7EF'
+export GITHUB_TOKEN='77ffdf6cdfb4eb569241e884ff367d5410ca902e'
+export PWD='/Volumes/SSD/Github/rescript12'
+export refmt='/Volumes/SSD/.opam/default/bin/refmt'
+export SSH_AUTH_SOCK='/private/tmp/com.apple.launchd.xzVKIAdsLg/Listeners'
+export FNM_LOGLEVEL='info'
+export SSD='/Volumes/SSD'
+export VSCODE_GIT_IPC_HANDLE='/var/folders/rt/7lc5vcw16459dszl8djk35fh0000gn/T/vscode-git-c586a30b2f.sock'
+export TERM_PROGRAM='vscode'
+export TERM_SESSION_ID='w0t0p2:566C8E86-5A7C-4DB6-BB9D-686D028AD7EF'
+export 77ffdf6cdfb4eb569241e884ff367d5410ca902e=''
+export AWS_CREDENTIALS_FILE='/Users/mandalarian/.aws/credentials'
+export TERM='xterm-256color'
+export APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL='true'
+export XPC_SERVICE_NAME='0'
+export TMPDIR='/var/folders/rt/7lc5vcw16459dszl8djk35fh0000gn/T/'
+export PATH="/Volumes/SSD/Github/rescript12/_esy/default/bin:$PATH"
+export cur__etc="/Volumes/SSD/Github/rescript12/_esy/default/store/i/rescript12-2ba7e201/etc"
+export cur__share="/Volumes/SSD/Github/rescript12/_esy/default/store/i/rescript12-2ba7e201/share"
+export cur__toplevel="/Volumes/SSD/Github/rescript12/_esy/default/store/i/rescript12-2ba7e201/toplevel"
+export cur__stublibs="/Volumes/SSD/Github/rescript12/_esy/default/store/i/rescript12-2ba7e201/stublibs"
+export cur__doc="/Volumes/SSD/Github/rescript12/_esy/default/store/i/rescript12-2ba7e201/doc"
+export cur__man="/Volumes/SSD/Github/rescript12/_esy/default/store/i/rescript12-2ba7e201/man"
+export cur__lib="/Volumes/SSD/Github/rescript12/_esy/default/store/i/rescript12-2ba7e201/lib"
+export cur__sbin="/Volumes/SSD/Github/rescript12/_esy/default/store/i/rescript12-2ba7e201/sbin"
+export cur__bin="/Volumes/SSD/Github/rescript12/_esy/default/store/i/rescript12-2ba7e201/bin"
+export cur__install="/Volumes/SSD/Github/rescript12/_esy/default/store/i/rescript12-2ba7e201"
+export cur__target_dir="/Volumes/SSD/Github/rescript12/_esy/default/store/b/rescript12-2ba7e201"
+export cur__original_root="/Volumes/SSD/Github/rescript12"
+export cur__root="/Volumes/SSD/Github/rescript12"
+export cur__dev="true"
+export cur__version="link-dev:./esy.json"
+export cur__name="rescript12"
+
+#
+# esy-m4@github:esy-packages/esy-m4#c7cf0ac9221be2b1f9d90e83559ca08397a629e7@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_m4-348b30cd/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_m4-348b30cd/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_m4-348b30cd/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_m4-348b30cd/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_m4-348b30cd/bin:$PATH"
+
+#
+# @opam/cppo@opam:1.6.7@c28ac3ae
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__cppo-opam__c__1.6.7-73221680/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__cppo-opam__c__1.6.7-73221680/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__cppo-opam__c__1.6.7-73221680/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__cppo-opam__c__1.6.7-73221680/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__cppo-opam__c__1.6.7-73221680/bin:$PATH"
+
+#
+# @opam/menhirSdk@opam:20210310@5abaafca
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhirsdk-opam__c__20210310-cd5dc8c2/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhirsdk-opam__c__20210310-cd5dc8c2/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhirsdk-opam__c__20210310-cd5dc8c2/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhirsdk-opam__c__20210310-cd5dc8c2/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhirsdk-opam__c__20210310-cd5dc8c2/bin:$PATH"
+
+#
+# @opam/menhirLib@opam:20210310@f9315713
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhirlib-opam__c__20210310-6eeac5d3/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhirlib-opam__c__20210310-6eeac5d3/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhirlib-opam__c__20210310-6eeac5d3/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhirlib-opam__c__20210310-6eeac5d3/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhirlib-opam__c__20210310-6eeac5d3/bin:$PATH"
+
+#
+# @opam/conf-m4@opam:1@196bf219
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__conf_m4-opam__c__1-d2b720aa/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__conf_m4-opam__c__1-d2b720aa/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__conf_m4-opam__c__1-d2b720aa/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__conf_m4-opam__c__1-d2b720aa/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__conf_m4-opam__c__1-d2b720aa/bin:$PATH"
+
+#
+# @opam/dune-private-libs@opam:2.8.4@1ce2b48d
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_private_libs-opam__c__2.8.4-fb1e768c/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_private_libs-opam__c__2.8.4-fb1e768c/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_private_libs-opam__c__2.8.4-fb1e768c/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_private_libs-opam__c__2.8.4-fb1e768c/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_private_libs-opam__c__2.8.4-fb1e768c/bin:$PATH"
+
+#
+# @opam/dune-glob@opam:2.8.4@6aa1a869
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_glob-opam__c__2.8.4-12006ccd/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_glob-opam__c__2.8.4-12006ccd/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_glob-opam__c__2.8.4-12006ccd/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_glob-opam__c__2.8.4-12006ccd/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_glob-opam__c__2.8.4-12006ccd/bin:$PATH"
+
+#
+# @opam/base-unix@opam:base@87d0b2eb
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/bin:$PATH"
+
+#
+# @opam/base-threads@opam:base@36803084
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/bin:$PATH"
+
+#
+# @esy-ocaml/substs@0.0.1@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/bin:$PATH"
+
+#
+# @opam/result@opam:1.5@6b753c82
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__result-opam__c__1.5-917586ac/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__result-opam__c__1.5-917586ac/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__result-opam__c__1.5-917586ac/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__result-opam__c__1.5-917586ac/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__result-opam__c__1.5-917586ac/bin:$PATH"
+
+#
+# @opam/ppx_derivers@opam:1.2.1@ecf0aa45
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-249b8c98/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-249b8c98/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-249b8c98/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-249b8c98/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-249b8c98/bin:$PATH"
+
+#
+# @opam/merlin-extend@opam:0.6@404f814c
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.6-2800835e/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.6-2800835e/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.6-2800835e/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.6-2800835e/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.6-2800835e/bin:$PATH"
+
+#
+# @opam/menhir@opam:20210310@50de9216
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhir-opam__c__20210310-5a4592e7/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhir-opam__c__20210310-5a4592e7/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhir-opam__c__20210310-5a4592e7/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhir-opam__c__20210310-5a4592e7/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhir-opam__c__20210310-5a4592e7/bin:$PATH"
+
+#
+# @opam/fix@opam:20201120@5c318621
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__fix-opam__c__20201120-42126429/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__fix-opam__c__20201120-42126429/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__fix-opam__c__20201120-42126429/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__fix-opam__c__20201120-42126429/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__fix-opam__c__20201120-42126429/bin:$PATH"
+
+#
+# ocaml@github:anmonteiro/ocaml#75f22c8@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/lib/ocaml/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/lib/ocaml:$CAML_LD_LIBRARY_PATH"
+export OCAMLLIB="/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/lib/ocaml"
+export OCAML_TOPLEVEL_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/lib/ocaml"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/bin:$PATH"
+
+#
+# @opam/ocamlfind@opam:1.8.1@b7dc3072
+#
+export OCAML_TOPLEVEL_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-72f5ac62/toplevel"
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-72f5ac62/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-72f5ac62/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-72f5ac62/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-72f5ac62/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-72f5ac62/bin:$PATH"
+
+#
+# @opam/dune-action-plugin@opam:2.8.4@ecd1dcb3
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_action_plugin-opam__c__2.8.4-4badd90c/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_action_plugin-opam__c__2.8.4-4badd90c/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_action_plugin-opam__c__2.8.4-4badd90c/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_action_plugin-opam__c__2.8.4-4badd90c/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_action_plugin-opam__c__2.8.4-4badd90c/bin:$PATH"
+
+#
+# @opam/dune@opam:2.8.4@ee414d6c
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune-opam__c__2.8.4-5f386663/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune-opam__c__2.8.4-5f386663/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune-opam__c__2.8.4-5f386663/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune-opam__c__2.8.4-5f386663/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune-opam__c__2.8.4-5f386663/bin:$PATH"
+
+#
+# @esy-ocaml/reason@3.7.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_ocaml__s__reason-3.7.0-8c113934/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_ocaml__s__reason-3.7.0-8c113934/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_ocaml__s__reason-3.7.0-8c113934/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_ocaml__s__reason-3.7.0-8c113934/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_ocaml__s__reason-3.7.0-8c113934/bin:$PATH"
+
+#
+# bs-platform@github:anmonteiro/bucklescript#1a00d85@d41d8cd9
+#
+export BSLIB="/Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript"
+export CAML_LD_LIBRARY_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/stublibs:/Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib:$OCAMLPATH"
+export MAN_PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/man:$MAN_PATH"
+export PATH="/Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/bin:$PATH"
+
+#
+# Built-in
+#
+export OCAMLFIND_LDCONF="ignore"
+export OCAMLFIND_DESTDIR="/Volumes/SSD/Github/rescript12/_esy/default/store/i/rescript12-2ba7e201/lib"
+export SHELL="env -i /bin/bash --norc --noprofile"
+export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export SHELL="/bin/bash"
