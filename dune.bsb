@@ -1,0 +1,301 @@
+;;;;{BSB GENERATED: NO EDIT
+(subdir ./node_modules/reason-react/src
+(rule
+(targets  React.ast)
+ (deps (:inputs  React.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  React.d)
+ (deps (:inputs  React.ast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  React.cmj React.cmi React.bs.js)
+ (mode (promote (until-clean) (only React.bs.js)))(deps (:inputs  React.ast)  (:dep_file React.d) ../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I ./legacy -I .  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src:.bs.js -o React.cmj %{inputs}))) )
+ (rule
+(targets  ReactDOM.ast)
+ (deps (:inputs  ReactDOM.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReactDOM.d)
+ (deps (:inputs  ReactDOM.ast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReactDOM.cmj ReactDOM.cmi ReactDOM.bs.js)
+ (mode (promote (until-clean) (only ReactDOM.bs.js)))(deps (:inputs  ReactDOM.ast)  (:dep_file ReactDOM.d) ../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I ./legacy -I .  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src:.bs.js -o ReactDOM.cmj %{inputs}))) )
+ (rule
+(targets  ReactEvent.ast)
+ (deps (:inputs  ReactEvent.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReactEvent.d)
+ (deps (:inputs  ReactEvent.ast ReactEvent.iast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReactEvent.iast)
+ (deps (:inputs  ReactEvent.rei) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReactEvent.cmi)
+ (deps (:inputs  ReactEvent.iast)  (:dep_file ReactEvent.d) ../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I ./legacy -I .  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -o ReactEvent.cmi %{inputs}))) )
+ (rule
+(targets  ReactEvent.cmj ReactEvent.bs.js)
+ (mode (promote (until-clean) (only ReactEvent.bs.js)))(deps (:inputs  ReactEvent.ast)  ReactEvent.cmi (:dep_file ReactEvent.d) ../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -bs-read-cmi -I ./legacy -I .  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src:.bs.js -o ReactEvent.cmj %{inputs}))) )
+ (rule
+(targets  ReactDOMStyle.ast)
+ (deps (:inputs  ReactDOMStyle.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReactDOMStyle.d)
+ (deps (:inputs  ReactDOMStyle.ast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReactDOMStyle.cmj ReactDOMStyle.cmi ReactDOMStyle.bs.js)
+ (mode (promote (until-clean) (only ReactDOMStyle.bs.js)))(deps (:inputs  ReactDOMStyle.ast)  (:dep_file ReactDOMStyle.d) ../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I ./legacy -I .  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src:.bs.js -o ReactDOMStyle.cmj %{inputs}))) )
+ (rule
+(targets  ReactDOMServer.ast)
+ (deps (:inputs  ReactDOMServer.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReactDOMServer.d)
+ (deps (:inputs  ReactDOMServer.ast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReactDOMServer.cmj ReactDOMServer.cmi ReactDOMServer.bs.js)
+ (mode (promote (until-clean) (only ReactDOMServer.bs.js)))(deps (:inputs  ReactDOMServer.ast)  (:dep_file ReactDOMServer.d) ../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I ./legacy -I .  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src:.bs.js -o ReactDOMServer.cmj %{inputs}))) )
+ (rule
+(targets  ReactTestUtils.ast)
+ (deps (:inputs  ReactTestUtils.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReactTestUtils.d)
+ (deps (:inputs  ReactTestUtils.ast ReactTestUtils.iast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReactTestUtils.iast)
+ (deps (:inputs  ReactTestUtils.rei) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReactTestUtils.cmi)
+ (deps (:inputs  ReactTestUtils.iast)  (:dep_file ReactTestUtils.d) ../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I ./legacy -I .  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -o ReactTestUtils.cmi %{inputs}))) )
+ (rule
+(targets  ReactTestUtils.cmj ReactTestUtils.bs.js)
+ (mode (promote (until-clean) (only ReactTestUtils.bs.js)))(deps (:inputs  ReactTestUtils.ast)  ReactTestUtils.cmi (:dep_file ReactTestUtils.d) ../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -bs-read-cmi -I ./legacy -I .  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src:.bs.js -o ReactTestUtils.cmj %{inputs}))) )
+ (rule
+(targets  ReasonReactRouter.ast)
+ (deps (:inputs  ReasonReactRouter.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReasonReactRouter.d)
+ (deps (:inputs  ReasonReactRouter.ast ReasonReactRouter.iast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReasonReactRouter.iast)
+ (deps (:inputs  ReasonReactRouter.rei) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReasonReactRouter.cmi)
+ (deps (:inputs  ReasonReactRouter.iast)  (:dep_file ReasonReactRouter.d) ../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I ./legacy -I .  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -o ReasonReactRouter.cmi %{inputs}))) )
+ (rule
+(targets  ReasonReactRouter.cmj ReasonReactRouter.bs.js)
+ (mode (promote (until-clean) (only ReasonReactRouter.bs.js)))(deps (:inputs  ReasonReactRouter.ast)  ReasonReactRouter.cmi (:dep_file ReasonReactRouter.d) ../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -bs-read-cmi -I ./legacy -I .  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src:.bs.js -o ReasonReactRouter.cmj %{inputs}))) )
+ (rule
+(targets  ReasonReactErrorBoundary.ast)
+ (deps (:inputs  ReasonReactErrorBoundary.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReasonReactErrorBoundary.d)
+ (deps (:inputs  ReasonReactErrorBoundary.ast ReasonReactErrorBoundary.iast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReasonReactErrorBoundary.iast)
+ (deps (:inputs  ReasonReactErrorBoundary.rei) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReasonReactErrorBoundary.cmi)
+ (deps (:inputs  ReasonReactErrorBoundary.iast)  (:dep_file ReasonReactErrorBoundary.d) ../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I ./legacy -I .  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -o ReasonReactErrorBoundary.cmi %{inputs}))) )
+ (rule
+(targets  ReasonReactErrorBoundary.cmj ReasonReactErrorBoundary.bs.js)
+ (mode (promote (until-clean) (only ReasonReactErrorBoundary.bs.js)))(deps (:inputs  ReasonReactErrorBoundary.ast)  ReasonReactErrorBoundary.cmi (:dep_file ReasonReactErrorBoundary.d) ../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -bs-read-cmi -I ./legacy -I .  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src:.bs.js -o ReasonReactErrorBoundary.cmj %{inputs}))) )
+ 
+(alias (name bsb_world)(deps  ReasonReactErrorBoundary.bs.js ReasonReactRouter.bs.js ReactTestUtils.bs.js ReactDOMServer.bs.js ReactDOMStyle.bs.js ReactEvent.bs.js ReactDOM.bs.js React.bs.js)))
+(subdir ./node_modules/reason-react/src/legacy
+(rule
+(targets  ReactDOMRe.ast)
+ (deps (:inputs  ReactDOMRe.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReactDOMRe.d)
+ (deps (:inputs  ReactDOMRe.ast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReactDOMRe.cmj ReactDOMRe.cmi ReactDOMRe.bs.js)
+ (mode (promote (until-clean) (only ReactDOMRe.bs.js)))(deps (:inputs  ReactDOMRe.ast)  (:dep_file ReactDOMRe.d) ../../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I . -I ..  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src/legacy:.bs.js -o ReactDOMRe.cmj %{inputs}))) )
+ (rule
+(targets  ReasonReact.ast)
+ (deps (:inputs  ReasonReact.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReasonReact.d)
+ (deps (:inputs  ReasonReact.ast ReasonReact.iast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReasonReact.iast)
+ (deps (:inputs  ReasonReact.rei) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReasonReact.cmi)
+ (deps (:inputs  ReasonReact.iast)  (:dep_file ReasonReact.d) ../../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I . -I ..  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -o ReasonReact.cmi %{inputs}))) )
+ (rule
+(targets  ReasonReact.cmj ReasonReact.bs.js)
+ (mode (promote (until-clean) (only ReasonReact.bs.js)))(deps (:inputs  ReasonReact.ast)  ReasonReact.cmi (:dep_file ReasonReact.d) ../../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -bs-read-cmi -I . -I ..  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src/legacy:.bs.js -o ReasonReact.cmj %{inputs}))) )
+ (rule
+(targets  ReactEventRe.ast)
+ (deps (:inputs  ReactEventRe.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReactEventRe.d)
+ (deps (:inputs  ReactEventRe.ast ReactEventRe.iast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReactEventRe.iast)
+ (deps (:inputs  ReactEventRe.rei) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReactEventRe.cmi)
+ (deps (:inputs  ReactEventRe.iast)  (:dep_file ReactEventRe.d) ../../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I . -I ..  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -o ReactEventRe.cmi %{inputs}))) )
+ (rule
+(targets  ReactEventRe.cmj ReactEventRe.bs.js)
+ (mode (promote (until-clean) (only ReactEventRe.bs.js)))(deps (:inputs  ReactEventRe.ast)  ReactEventRe.cmi (:dep_file ReactEventRe.d) ../../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -bs-read-cmi -I . -I ..  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src/legacy:.bs.js -o ReactEventRe.cmj %{inputs}))) )
+ (rule
+(targets  ReactDOMServerRe.ast)
+ (deps (:inputs  ReactDOMServerRe.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReactDOMServerRe.d)
+ (deps (:inputs  ReactDOMServerRe.ast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReactDOMServerRe.cmj ReactDOMServerRe.cmi ReactDOMServerRe.bs.js)
+ (mode (promote (until-clean) (only ReactDOMServerRe.bs.js)))(deps (:inputs  ReactDOMServerRe.ast)  (:dep_file ReactDOMServerRe.d) ../../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I . -I ..  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src/legacy:.bs.js -o ReactDOMServerRe.cmj %{inputs}))) )
+ (rule
+(targets  ReasonReactCompat.ast)
+ (deps (:inputs  ReasonReactCompat.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReasonReactCompat.d)
+ (deps (:inputs  ReasonReactCompat.ast ReasonReactCompat.iast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReasonReactCompat.iast)
+ (deps (:inputs  ReasonReactCompat.rei) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReasonReactCompat.cmi)
+ (deps (:inputs  ReasonReactCompat.iast)  (:dep_file ReasonReactCompat.d) ../../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I . -I ..  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -o ReasonReactCompat.cmi %{inputs}))) )
+ (rule
+(targets  ReasonReactCompat.cmj ReasonReactCompat.bs.js)
+ (mode (promote (until-clean) (only ReasonReactCompat.bs.js)))(deps (:inputs  ReasonReactCompat.ast)  ReasonReactCompat.cmi (:dep_file ReasonReactCompat.d) ../../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -bs-read-cmi -I . -I ..  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src/legacy:.bs.js -o ReasonReactCompat.cmj %{inputs}))) )
+ (rule
+(targets  ReasonReactOptimizedCreateClass.ast)
+ (deps (:inputs  ReasonReactOptimizedCreateClass.re) )
+(action
+ (run bsc  -w a -bs-v 9.1.0 -bs-jsx 3 -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  ReasonReactOptimizedCreateClass.d)
+ (deps (:inputs  ReasonReactOptimizedCreateClass.ast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12/node_modules/reason-react  %{inputs})) )
+ (rule
+(targets  ReasonReactOptimizedCreateClass.cmj ReasonReactOptimizedCreateClass.cmi ReasonReactOptimizedCreateClass.bs.js)
+ (mode (promote (until-clean) (only ReasonReactOptimizedCreateClass.bs.js)))(deps (:inputs  ReasonReactOptimizedCreateClass.ast)  (:dep_file ReasonReactOptimizedCreateClass.d) ../../bsconfig.json)
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -I . -I ..  -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -w a -bs-package-name reason-react -bs-package-output commonjs:src/legacy:.bs.js -o ReasonReactOptimizedCreateClass.cmj %{inputs}))) )
+ 
+(alias (name bsb_world)(deps  ReasonReactOptimizedCreateClass.bs.js ReasonReactCompat.bs.js ReactDOMServerRe.bs.js ReactEventRe.bs.js ReasonReact.bs.js ReactDOMRe.bs.js)))
+
+
+
+(subdir ./src
+(rule
+(targets  Index.ast)
+ (deps (:inputs  Index.re) )
+(action
+ (run bsc  -bs-v 9.1.0 -bs-jsx 3 -bs-super-errors -bs-no-version-header -absname -bs-ast -o %{targets} %{inputs})) )
+ (rule
+(targets  Index.d)
+ (deps (:inputs  Index.ast) )
+(action (run bsb_helper -cwd /Volumes/SSD/Github/rescript12  -bs-ns Rescript12 %{inputs})) )
+ (rule
+(targets  Index-Rescript12.cmj Index-Rescript12.cmi Index.bs.js)
+ (mode (promote (until-clean) (only Index.bs.js)))(deps (:inputs  Index.ast)  (:dep_file Index.d) ../bsconfig.json ../lib/bs/Rescript12.cmi(alias ../node_modules/reason-react/src/bsb_world)(alias ../node_modules/reason-react/src/legacy/bsb_world))
+(action
+ (progn (dynamic-run bsb_parse_depend %{dep_file}) (run bsc -bs-ns Rescript12 -I ../lib/bs -I . -I /Volumes/SSD/Github/rescript12/_build/default/./node_modules/reason-react/src -I /Volumes/SSD/Github/rescript12/_build/default/./node_modules/reason-react/src/legacy -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript  -bs-package-name rescript12 -bs-package-output commonjs:src:.bs.js -o Index-Rescript12.cmj %{inputs}))) )
+ 
+(alias (name bsb_world)(deps  Index.bs.js)))
+
+(subdir ./lib/bs(rule
+(targets  Rescript12.cmi)
+ (deps (:inputs  Rescript12.mlmap) )
+(action (run bsc -I /Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib/bucklescript -w -49 -color always -no-alias-deps %{inputs})) )
+ )
+
+(data_only_dirs node_modules);;;;BSB GENERATED: NO EDIT}
